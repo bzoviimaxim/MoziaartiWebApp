@@ -102,5 +102,8 @@
       }
     }
   },
-  "defaultProject": "MoziaartiWebApp"
+  "defaultProject": "MoziaartiWebApp",
+  "cli": {
+    "analytics": false
+  }
 }

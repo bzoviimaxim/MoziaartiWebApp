@@ -1,5 +1,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/moziaida/public_html/
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp style.css $DEPLOYPATH
+    - /bin/cp -R dist/moziaarti-web-app

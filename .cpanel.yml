@@ -2,5 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/moziaida/public_html/
-    - ng build --configuration=production --output-path=dist/moziaarti-web-app
+    - ng build --configuration=production
     - /bin/cp -R dist/moziaarti-web-app/* $DEPLOYPATH
